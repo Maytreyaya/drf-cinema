@@ -2,12 +2,14 @@
 Project for managing cinema using DRF
 
 ## Installing using GitHub
-- Install PostgreSQL and create a database.\
-- git clone https://github.com/Maytreyaya/drf-cinema
-- cd drf-cinema
-- python -m venv venv
-- source venv/bin/activate
-- pip install -r requirements.txt
+- Install PostgreSQL and create a database.
+- `git clone https://github.com/Maytreyaya/drf-cinema`
+- `cd drf-cinema`
+- `python -m venv venv`
+- `venv\Scripts\activate` (on Windows)
+- `source venv/bin/activate` (on macOS)
+- `pip install -r requirements.txt`
+
 - ### Setup DB
   - set POSTGRES_HOST=your_db_hostname
   - set POSTGRES_DB=your_db_name
@@ -17,14 +19,14 @@ Project for managing cinema using DRF
 
 
   - Apply migrations:
-  python manage.py migrate
+  `python manage.py migrate`
   - Start the development server:
-python manage.py runserver
+`python manage.py runserver`
 
 ## Run with docker
 - Docker should be installed
-- docker-compose build
-- docker-compose up
+- `docker-compose build`
+- `docker-compose up`
 
 ## Getting access
 - create user via /api/user/register/
@@ -40,3 +42,7 @@ python manage.py runserver
 - Creating Cinema halls
 - Adding movies sessions
 - Filtering movies and movie sessions
+
+![cinema api1.png](media/cinema%20api1.png)
+![cinema api2.png](media/cinema%20api2.png)
+![cinema filter.png](media/cienma%20filter.png)
