@@ -43,6 +43,6 @@ Project for managing cinema using DRF
 - Adding movies sessions
 - Filtering movies and movie sessions
 
-![cinema api1.png](media/cinema%20api1.png)
-![cinema api2.png](media/cinema%20api2.png)
-![cinema filter.png](media/cienma%20filter.png)
+![cinema api1.png](img/cinema%20api1.png)
+![cinema api2.png](img/cinema%20api2.png)
+![cinema filter.png](img/cienma%20filter.png)
